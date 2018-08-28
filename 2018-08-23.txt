@@ -1,0 +1,38 @@
+﻿Pomodoros:
+15:10
+
+> Done
+	PUMA: daily prepare desde 9:15
+	PUMA: meetings desde las 10 ~> 12 aprox
+	PUMA: Rest-time: 1h (lo utilizaré a lo largo del día)
+	
+> Doing
+	GMB: 
+	12:17 
+		Planning: 
+		1) Intentar que para la exportación a excel no crear otra tabla --> De momento no lo veo
+		2) Hacer DRY
+		3) Intento de subida a DONET
+		
+		
+Hola María,
+Cuando tengas unos minutillos te cuento cómo podéis utilizar todos la ventana que consulta las reviews de Global MyBusinness  api
+
+http://testmadrid5.gft.com:8191
+
+Email:   mapfredata@gmail.com
+Password:  WqWQ@!s3tLm%AVT2ta
+
+ip=172.22.220.45
+
+==> Que desde el Store Code se haga link 
+a https://business.google.com/reviews/l/09414015968863199146?hl=es (el chorro el id de la localización)
+
+==> Después de enseñarles la página me dicen que cambie:
+   a) Incidencia: En la cuenta de mafre (la de 11 localizaciones) se han dado cuenta de que en alguna ubicación salen 200 registros,
+      cuando pora la interfaz salen 600. SOLUCIÓN: es que la api sólo devuelve 200 (tengo que ver si puedo paginar o ver qué pasa)
+
+	b) Que desde el Store Code, se pudiera hacer un link a la interfaz, https://business.google.com/reviews/l/09414015968863199146?hl=es
+	pero el id que viene no se corresponde con el id de localización. Así que no puedo hacer ese link
+	
+==> Tengo que investigar si se pueden paginar las reviews

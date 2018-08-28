@@ -1,0 +1,16 @@
+﻿> Le he pasado a María y Alberto lo de la restricción de los post para crear si la cuenta tiene más de 10 ubicaciones. 
+Hemos quedado en que María hablará y quedamos a la espera de ver qué pasa
+
+> Voy a mirar lo de Prosol a ver qué necesitan:
+	1) Propuesta económica para hacer el sitio seguro: Hace falta comprar certificado SSL e instalarlo en el servidor. 
+		Esperaré al lunes a ver si viene Andreina.
+		
+	2) Pestaña en la web que haga la función de blog (puedo ir viendo cómo funcionan los blogs)
+	3) Herramienta de marketing automation con funciones que adjunta en email (no lo tengo los emails)
+	
+	4) Formato móvil las imágens del carrusel no se ven completas
+	   (Esto es necesario que lo haga alguien de front)
+	
+	
+> Mientras tanto abro los fuentes a ver si me acuerdo de usuarios etc.
+> También he instalado umbraco-articulate package y he hecho pruebas con el blog. He añadido opción de menú blog. Lo he subido todo a TFS.

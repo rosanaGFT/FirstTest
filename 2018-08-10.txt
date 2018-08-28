@@ -1,0 +1,39 @@
+Pomodoros:
+9:09
+
+
+token:
+Bearer ya29.Glz1BaeesUGjakDX8DfJtse1hY7yrQlz5dtIIZGo-YLhFzJUBvgGHcKTAvgzntPi6f_wG_nEAKR3Hb4U8axWhFn3YIIFoT373v6aUjeheUbvKEBL3e6NrP8BCZC2PA
+
+
+> Ver cómo filtras las reviews por un campo
+https://mybusiness.googleapis.com/v4/accounts/105967119437508745028/locations/7223729000342232606/reviews
+
+Nota: Este filtro funciona ok (Para locations)
+https://mybusiness.googleapis.com/v4/accounts/105967119437508745028/locations
+?filter=location.locationName=%22Fundación+MAPFRE+Guanarteme+- Sede+Institucional%22
+
+El parámetro filter no es reconocido para reviews, y además he encontrado en el foro que ni siquiera está implementado el poder 
+obtener una lista de reviews por un rango de fechas:
+https://www.en.advertisercommunity.com/t5/Google-My-Business-API/Getting-reviews-in-a-specific-date-range/td-p/901605
+
+
+		Re: Getting reviews in a specific date range [ New ]
+		 Shalini S
+		Google Employee Google Employee
+		# 2
+		Shalini S January 2017
+		Hi @Alps W,
+
+		 
+
+		The Google My Business API doesn’t currently support the display of reviews in a specific date range. We’ll announce new features of the Google My Business API when they become available on both this board and the Google Developers site. Please stay tuned for updates!
+
+		 
+
+		Thanks,
+
+		The Google My Business API team
+
+
+

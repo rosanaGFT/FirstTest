@@ -1,0 +1,11 @@
+﻿Pomodoros:
+14:50
+
+Planif:
+	> Dejar la aplic de reseñas lista para los usuarios
+	
+Hecho: 
+	> Meeting de PUMA
+	
+	
+fnExcelReport

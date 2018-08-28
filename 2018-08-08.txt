@@ -1,0 +1,212 @@
+INFO cuenta mapfre
+	Email:   mapfredata@gmail.com
+	Password:  WqWQ@!s3tLm%AVT2ta
+
+
+	Acceso a api:  
+	https://console.developers.google.com/apis/dashboard?project=api-my-business-1519052593034&authuser=3&duration=PT1H
+
+	Acceso a google-cloud-console: 
+	https://console.cloud.google.com/home/dashboard?project=api-my-business-1519052593034&hl=es
+
+
+
+	Esta clave de API se puede usar en este proyecto y con cualquier API compatible. 
+	Para usar esta clave en tu aplicación, transfiérela con el parámetro key=API_KEY .
+	Clave de API: AIzaSyCRu1pciUU0H4ADIwx9nfYYRKf4S96j0XE
+
+
+
+pomodoros
+9:33
+
+daily
+incidencias Verkol: 0		
+incidencias Editex: 0
+
+GOOGLE MY BUSINESS
+*** 9:33
+> Ayer rellené el formulario necesario para poder desarrollar pero el permiso lo dan dentro de 2 semanas
+> De todas formas voy a ver la información de cómo desarrollar
+> Me acabo de dar cuenta por la documentación que el formulario sirve para habilitar la GMB-Api, y resulta que
+  en el panel de control ya está habilitada
+
+> Entro en la API y obtengo sus datos: key=API_KEY
+	Esta clave de API se puede usar en este proyecto y con cualquier API compatible. 
+	Para usar esta clave en tu aplicación, transfiérela con el parámetro key=API_KEY .
+	Clave de API: AIzaSyCRu1pciUU0H4ADIwx9nfYYRKf4S96j0XE
+
+	
+> Acceso desde código con 2 formas: a) http request b) libraries
+	
+	
+	{
+  "error": {
+    "code": 403,
+    "message": "Cloud Natural Language API has not been used in project 576772557526 before or it is disabled. 
+	Enable it by visiting https://console.developers.google.com/apis/api/language.googleapis.com/overview?project=576772557526 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Google developers console API activation",
+            "url": "https://console.developers.google.com/apis/api/language.googleapis.com/overview?project=576772557526"
+          }
+        ]
+      }
+    ]
+  }
+}
+	
+> Veo que es servicio discovery no funciona pero voy a ver si sí funciona el resto
+
+
+https://mybusiness.googleapis.com/v4/accounts
+
+
+
+
+
+
+Request URL:  https://mybusiness.googleapis.com/v4/accounts
+Status Code:  200
+Response Body:
+{
+  "accounts": [
+    {
+      "name": "accounts/100841564518440418599",
+      "accountName": "Adesis Mapfre",
+      "type": "PERSONAL",
+      "state": {
+        "status": "UNVERIFIED"
+      }
+    },
+    {
+      "name": "accounts/105967119437508745028",
+      "accountName": "Mapfre España - Fundación",
+      "type": "LOCATION_GROUP",
+      "role": "MANAGER",
+      "state": {
+        "status": "VERIFIED"
+      },
+      "accountNumber": "5354005541",
+      "permissionLevel": "MEMBER_LEVEL"
+    },
+    {
+      "name": "accounts/111498315489122477381",
+      "accountName": "Mapfre España - Red en la Red",
+      "type": "LOCATION_GROUP",
+      "role": "OWNER",
+      "state": {
+        "status": "VERIFIED"
+      },
+      "accountNumber": "5860362962",
+      "permissionLevel": "OWNER_LEVEL"
+    }
+  ]
+}
+
+
+>>> Obtengo los localPost
+Request URL:  https://mybusiness.googleapis.com/v4/accounts/105967119437508745028/locations/8066629913040331771/localPosts
+Status Code:  200
+Response Body:
+{
+  "localPosts": [
+    {
+      "name": "accounts/-/locations/8066629913040331771/localPosts/315399320414862587",
+      "languageCode": "es",
+      "summary": "Puedes ver el museo del seguro",
+      "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://www.fundacionmapfre.org/fundacion/es_es/exposiciones/museo-del-seguro/"
+      },
+      "state": "LIVE",
+      "updateTime": "2018-08-08T12:24:37.798Z",
+      "createTime": "2018-08-08T12:24:37.798Z",
+      "searchUrl": "https://search.google.com/local/posts?q=Sala+Exposiciones+Azca&ludocid=9021518677309073104&lpsid=315399320414862587",
+      "media": [
+        {
+          "name": "accounts/-/locations/8066629913040331771/media/localPosts/AF1QipO9Jntqmle7dKJrc3A15tNZln0zokAwGqcV3nww",
+          "mediaFormat": "PHOTO",
+          "googleUrl": "https://lh3.googleusercontent.com/bnKUYZ5Y_dw7vspF26QhzSe787Bl7UIaH_4MOZuzdyrqobyRZbJVmpq9mDwZi1PFHsYHiN9t"
+        }
+      ],
+      "topicType": "STANDARD"
+    }
+  ]
+}
+
+
+******************************************************************************
+
+ {                
+ 	"name": "accounts/105967119437508745028/locations/8066629913040331771/localPosts",
+    "languageCode": "es",
+    "summary": "Puedes ver el museo del seguro, SEGURÍSIMO",
+    "callToAction": {
+        "actionType": "LEARN_MORE",
+        "url": "https://www.fundacionmapfre.org/fundacion/es_es/exposiciones/museo-del-seguro/"
+    },
+    "state": "LOCAL_POST_STATE_UNSPECIFIED",
+    "updateTime": "2018-08-08T12:24:37.798Z",
+    "createTime": "2018-08-08T12:24:37.798Z",
+    "searchUrl": "https://search.google.com/local/posts?q=Sala+Exposiciones+Azca&ludocid=9021518677309073104&lpsid=315399320414862587",
+    "media": [
+        {
+            "name": "accounts/-/locations/8066629913040331771/media/localPosts/AF1QipO9Jntqmle7dKJrc3A15tNZln0zokAwGqcV3nww",
+            "mediaFormat": "PHOTO",
+            "googleUrl": "https://lh3.googleusercontent.com/bnKUYZ5Y_dw7vspF26QhzSe787Bl7UIaH_4MOZuzdyrqobyRZbJVmpq9mDwZi1PFHsYHiN9t"
+        }
+    ],
+    "topicType": "STANDARD"
+  }
+}
+
+
+
+
+// Post a user
+var url = "http://localhost:8080/api/v1/users";
+
+var data = {};
+data.firstname = "John";
+data.lastname  = "Snow";
+var json = JSON.stringify(data);
+
+var xhr = new XMLHttpRequest();
+xhr.open("POST", url, true);
+xhr.setRequestHeader('Content-type','application/json; charset=utf-8');
+xhr.onload = function () {
+	var users = JSON.parse(xhr.responseText);
+	if (xhr.readyState == 4 && xhr.status == "201") {
+		console.table(users);
+	} else {
+		console.error(users);
+	}
+}
+xhr.send(json);
+
+Authorization -> Bearer ya29.GlzzBQlRlwftu-U055Wv1YVqrfFzUUkWoKDuwofOAWL5htnZqFg7Pkm75yLYu82qVpX7UMOpO1VfPy21J6_ziaU4pm341F6U856i7hUo5zEXd1CgqqP0SETlPfnrTA
+
+
+https://mybusiness.googleapis.com/v4/accounts/105967119437508745028/locations/8066629913040331771/localPosts
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+PageToken=ABHRLXVktTcFG51RJpxgciCIYcOergy01FVZsf527Tmnafc_flFMD35CQFx4DbXy7g7AyZXrGciMaG9M_UdCQe-lph1rCwouGypzx69noO7yUMOWVVhJO3G8pjjJEVxRfdnkQ3t4sbBy6OdjAxh-flSMqkQJHTqruQ
+oauthToken=ya29.Glz0BYKvZvZMrHN9cU24TzpkCaThVZbo4Koq_65L-WvQ9kcY-m3RGyFFmNHi0UIk1tLCGLlOci5_KOjOTl_57ZBEh2w919Yj2N9gMN1htQj3DeQCHhfAnvbN_4Hdiw
+		   ya29.Glz0BZxN36jZfpatcN8Gc8jO52fm8J40rOMaW08GCjV5MN0jvOsP-gu-S9WWpbCypX8mHc_z1m9w05hQWFfV18SaJFpg6hvwr6ShsIY16lzLgZ0YVM3RKE1aKNZSAg
+		   
+		   
+		   
+https://mybusiness.googleapis.com/v4/accounts/111498315489122477381/locations		   
+		   
+ABHRLXVktTcFG51RJpxgciCIYcOergy01FVZsf527Tmnafc_flFMD35CQFx4DbXy7g7AyZWXhzavn0Xk8pVfy090iZ9Y8PMbbhOJ2DHqXOWb4LFJCYuHzeJr5imh35WPhkC0vyDr9vS7DTnX570f_R9HtE5lYKBE3g
+ABHRLXXD7pnYVkWsyASQAxZeHACUHYzivinXWl1Cc4yLjnx05iJoqzK2KvkPWWNijIbMRltOKwDbUJH8tIa5toZfsTUebPUaoA8uGyvCJeButLz_eqUmpJsrDFV-5xjeyapoCFLjcSJG3LH4KqlCE4_z8VtBkR-JOwnxynKjVbh1cXf5F0Fopl4
+ABHRLXV4W30p2AxC9x16yVWHH4ePi2Z1H_GmnDSkZHPcHDQw1GXFQkw1Eqxdsze2TF9Ls5jlK2jZMX3DJwHsg4kbcqBqIrlWAqZJJHphcPLZvTiI8sG23dl7NmFXdSE7mvmxkDLoXDKy8B4KhQlTRLCeY36Onmm9z1ZljLGw35pFBJQyG7438vI
+ABHRLXXlQh2EBo0r3FnTACWwWfgwveirQfUql2U0V_XUQ0dGVdLutAA9yiHYlKyROY-1ymfwIlM_-jKheC8rvfuYWAE3f4MwtMm_aJTB9vVY1lSZREbK7C2JQa7e3H1MGqsPHyExckzLZdKiMvJKSqSRuf6-6jmHpKrBytxPjxFUqK30SbyfHiw

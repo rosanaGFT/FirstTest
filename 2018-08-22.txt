@@ -1,0 +1,11 @@
+﻿Pomodoros:
+15:10
+
+> De la reunión tengo que implementar el diseño de tablas
+1) Buscar diseño de tabla
+2) Instalar mySql
+2) Buscar sintaxis mySql
+
+
+VM: 172.22.4.45 
+VM: 172.22.4.46

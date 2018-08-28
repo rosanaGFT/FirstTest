@@ -1,0 +1,55 @@
+pomodoros
+10:45
+11:15
+
+14:14
+
+
+daily
+incidencias Verkol
+	> Alta de compañía (Marcos Gil 2018-07-18)
+	IdCompania	IdCia	RefCompaniaTekniker	Nombre	IdPadre
+	17063		VUR[17063]	JASO EQUIPOS DE OBRAS	17062
+	
+	> Amaia - 2018-07-30 
+		Etiquetas que no tienen los componentes creados
+		1.jpg
+			CIA: SAICA PAPER
+			MAQUINA: JUT[31152]
+			COMPON: HA[35679]  Id=35679
+		
+		2.jpg = 1.jpg
+			
+
+		7.jpg
+			CIA: SERVICIOS LOGÍSTICOS PORTUARIOS
+			MAQUINA: KAA[20038]
+			COMPON: VI[35678]
+			
+		9.jpg
+			CIA: SOCIEDAD AUXILIAR PUNTA SOLLANA
+			MAQUINA: NUL[31155]
+			COMPON: LI[35682]		
+			
+			
+		10.jpg
+			CIA: SOCIEDAD AUXILIAR PUNTA SOLLANA
+			MAQUINA: HIS[31156]
+			COMPON: NU[35683]				
+			
+			
+		>>> AL FINAL ME DICE MARCOS GIL QUE ESTO YA LO SOLUCIONÓ 
+		
+		
+incidencias Editex:
+	Al día
+	
+	
+Curso obligatorio GFT -> hecho
+
+GOOGLE MY BUSINESS
+	> Me he creado una aplicación, pero necesita verificarse y tarda semanas
+	> He entrado en google my business developer, en el formulario de verificación y tarda 2 semanas 
+	> Tengo en el calendario una reunión para mañana con Borja de google my business, pero no puedo continuar por el tema de la verificación
+	  Voy a ver si puedo ver algo más de teoría
+

@@ -1,0 +1,108 @@
+﻿Pomodoros:
+8:40
+
+Planif:
+	> Me ha dicho María que sólo a través de G Suit se puede solicitar lo del tema multi-post. Le echo un vistazo
+	> Hacer que la aplic. GMB se pueda usar a nivel de usuario (ahora sólo está para que funcione para mí)
+	
+	
+	
+	
+Hecho:
+	> En Prosol quito toda referencia en los fuentes a "rosana" y lo subo a TFS
+	> Ver en Prosol como pongo las imágenes de la home responsive para la versión móvil
+		Lo he solucionado cambiando el estilo de background-image como sigue
+			background-image:url('../images/bg.png');background-repeat:no-repeat;background-size:contain;background-position:center;
+			
+	> Me pongo con G Suite:
+		https://support.google.com/a/answer/60216?hl=es&ref_topic=1687139
+		Para utilizar G Suite o Cloud Identity, pero hay que verificar que eres el propietario del dominio.
+		
+		Pasos de verificación: https://support.google.com/a/answer/48323
+		a) Comprobar los registros de facturación:
+			El host de tu dominio coincide con aquel que te ha vendido el nombre del dominio. 
+			Para saber cual es el host de tu dominio .... => Hablar con sistemas
+			o utilizar: https://whois.icann.org/es/lookup?name=www.adesis.com
+			
+			Registrador
+			Servidor de WHOIS: whois.nicline.com
+			URL: http://www.nicline.com
+			Registrador: Arsys Internet, S.L. dba NICLINE.COM
+			ID de la IANA: 379
+			Correo electrónico para informar casos de uso indebido:abuse@nicline.com
+			Teléfono para informar casos de uso indebido: +34 941620100
+			
+			
+			Estado
+			Estado del dominio: ok https://www.icann.org/epp#ok
+			
+			Fechas importantes
+			Fecha de actualización: 2017-12-15
+			Fecha de creación: 1999-12-14
+			Registrar Expiration Date: 2018-12-14
+			
+			Servidores de nombre
+			dns1.servidoresdns.net
+			dns2.servidoresdns.net
+			
+			
+			Registro de WHOIS sin procesar
+			Domain Name: ADESIS.COM
+			Registry Domain ID: 15251908_DOMAIN_COM-VRSN
+			Registrar WHOIS Server: whois.nicline.com
+			Registrar URL: http://www.nicline.com
+			Updated Date: 2017-12-15T12:15:34Z
+			Creation Date: 1999-12-14T08:10:12Z
+			Registrar Registration Expiration Date: 2018-12-14T08:10:12Z
+			Registrar: Arsys Internet, S.L. dba NICLINE.COM
+			Registrar IANA ID: 379
+			Registrar Abuse Contact Email: abuse@nicline.com
+			Registrar Abuse Contact Phone: +34 941620100
+			Domain Status: ok https://www.icann.org/epp#ok
+			Registrant Organization: Adesis Netlife S.L.
+			Registrant State/Province: Madrid
+			Registrant Country: ES
+			Registrant Email: whoiscontact@domainconnection.info
+			Admin Email: whoiscontact@domainconnection.info
+			Tech Email: whoiscontact@domainconnection.info
+			Name Server: dns1.servidoresdns.net
+			Name Server: dns2.servidoresdns.net
+			DNSSEC: Unsigned
+			
+			
+			
+			http://www.nicline.com/: Acceder con credencias que dieron al comprar el dominico
+			
+			Verificar tu dominio con un registro TXT: https://support.google.com/a/answer/183895#generic_TXT   .....
+			
+			Empieza a utilizar G Suite de forma gratuita: 
+				https://gsuite.google.com/intl/es/?utm_campaign=apps-help-center-notification&utm_medium=et&utm_source=apps-help-center&utm_content=es
+			
+			
+			
+			
+		Lo he dejado de momento, pero vuelvo a la url: https://support.google.com/a/answer/60216?hl=es&ref_topic=1687139
+		donde me dice que para poder utilizar G Suite hace falta verificar el dominio. 
+		He hecho login con cuenta de mapfre/roslopguz2016 y me dice (con la mia) que no es una dirección de email de Google Apps. 
+		Dice que puedo empecer con una prueba gratuida de 30 días => voy a ello: https://gsuite.google.com/signup/basic/welcome
+		
+		
+		Al intentar poner el dominio www.adesis.com me dice que ese dominio ya está en alguna cuenta gestionada por google.
+		
+		
+		RESUMEN:
+			Para utilizar GSuite, entre otra información hay que introducir un dominio (www.adesis.com)
+			dice que justo ese dominio ya está asignado a alguna cuenta gestionada por google.
+			Pruebo a utilizar https://www.gft.com/int/en/index
+			
+			
+			Si tu situación no es ninguna de las mencionadas, es posible que el propietario anterior de tu dominio se haya registrado en un servicio de Google. 
+			Rellena este formulario y el equipo de asistencia se pondrá en contacto contigo en un plazo de 48 horas.
+			
+			
+			Les cuento esto a María y Alberto y me dicen que lo vemos el próximo lunes.
+			Me he quedado en esta página: https://support.google.com/a/answer/80610
+			
+			
+			
+> Les he resuelto una incidencia AVID del excel de la macro. Ver email

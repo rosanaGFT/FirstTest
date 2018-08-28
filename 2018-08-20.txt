@@ -1,0 +1,6 @@
+﻿Pomodoros:
+
+
+Planif:
+	> Dejar la aplic de reseñas lista para los usuarios
+	

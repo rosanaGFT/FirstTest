@@ -1,0 +1,29 @@
+Pomodoros
+
+Marc, tan majo, me han intentado ayudar para conectarme
+Jose Antonio (JA), incluso ha bajado para ayudarme a todo. Que majísimo.
+ Con JA he quedado en:
+	1) Le paso los scripts de ADP por email
+	2) Comparto un directorio para que me pueda pasar una copia de la VM Linux
+	3) Yo me instalo Virtual-Box para acceder a su máquina
+	
+	
+12:22
+> Le he pasado por email a Jose Antonio Pena los ficheros de scripts de creación/undo de las 
+tablas del modelo ADM
+
+> También le he pasado el link a mi directorio compartido para que me pase la máquina virtual
+
+> Hecho:
+	> Comprobar que desde mi cliente MySql la conexión que me ha proporcionado Jose Antonio funciona ok ===> OK
+	> También funciona la conexión Putty al servidor
+	
+> Planes:
+	> Git: Ponerme a ello 
+	> Back: Java como última opción
+	> Front: 
+		React: Después de Git
+		
+
+
+

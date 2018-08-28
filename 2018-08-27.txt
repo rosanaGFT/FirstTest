@@ -1,0 +1,42 @@
+Pomodoros
+
+11:41
+
+Planif
+	1> Dejar ok la versión de explotac. de GMB
+	2> Ponerme con la tarea AVID
+	
+Doing
+	Me pongo con el tema de la tarea AVID
+    
+
+Done
+
+GMB
+	> He ejecutado una vez ok el obtener las 3011 localizaciones, pero la segunda vez me da error.
+	> He subido otra versión para que pueda poner la cantidad de retardo (por defecto está a 100)
+	Request URL: https://mybusiness.googleapis.com/v4/accounts/111498315489122477381/locations/15659049046298246549/reviews
+	Status Code: 429
+	Response Body:
+	{ "error": { "code": 429, "message": "Insufficient tokens for quota 'mybusiness.googleapis.com/default_v4_requests' and limit 'DefaultV4RequestsPerMinutePerProject' of service 'mybusiness.googleapis.com' for consumer 'project_number:576772557526'.", "status": "RESOURCE_EXHAUSTED", "details": [ { "@type": "type.googleapis.com/google.rpc.Help", "links": [ { "description": "Google developer console API key", "url": "https://console.developers.google.com/project/576772557526/apiui/credential" } ] } ] } }  
+
+		
+	Insufficient tokens for quota and 
+	limit DefaultV4RequestsPerMinutePerProject
+	
+PUMA	
+	> He creado los scripts de tablas para ADM (Desde mi MySql)
+	> Los he subido a Git:
+		db/migration/mysql/puma_adm/V001.001__adm_initial_version.sql         (para los create)
+		db/migration/mysql/puma_adm/U001.001__adm_initial_version.sql        (para los drop table)
+		
+		pero no he conseguido que cuelguen de master, si no de patch-3
+		
+		
+	> Pruebo el acceso a bbdd desde el servidor a través de SSH (usr/pwd: incorrecto)
+		
+	> Me pongo con ver un poco de Git
+
+	
+	
+	

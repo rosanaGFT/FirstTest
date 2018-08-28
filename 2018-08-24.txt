@@ -1,0 +1,8 @@
+Planif
+
+> Email para Markel
+> Familiarizarme un poquito con MySql
+> Intentar conectarme al PUMA-1 
+> Crear tablas en bd - MySql
+> Crear scripts según nomenclatura que me dijo Jose Antonio
+>

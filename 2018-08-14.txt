@@ -1,0 +1,11 @@
+﻿> He hecho lo del tema de la programación de las api's para el tema de reviews
+> Al ponerme con los post:
+	https://developers.google.com/my-business/content/posts-data
+
+	Dice que sólo se puede hacer post a través de la api para marcar con menor de 10 locations
+
+> localPostId = accounts/105967119437508745028/locations/8066629913040331771/localPosts/315399320414862587	
+> token = Bearer ya29.Glz5BZWDG1hCRrzjgkK0JenpSPpP1GvBVIAI5H8GNo28EmkWhgn5mInlv9UZFPHxskwVRMbZkAB0_FiYmP82tEgsSkDzaar1hhPtyAI4_9h364vBhGsG08k5J_kaBg
+
+
+https://mybusiness.googleapis.com/v4/accounts/111498315489122477381/locations/6081428128950195407/localPosts/
